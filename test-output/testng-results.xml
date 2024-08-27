@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="18" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T18:02:02 IST" name="Loan Department" finished-at="2024-05-28T18:02:02 IST" duration-ms="222">
+    <groups>
+      <group name="Smoke">
+        <method signature="Class2.Smoke1()[pri:0, instance:test.Class2@291ae]" name="Smoke1" class="test.Class2"/>
+        <method signature="Class4.Smoke3()[pri:0, instance:test.Class4@61df66b6]" name="Smoke3" class="test.Class4"/>
+        <method signature="Class3.Smoke2()[pri:0, instance:test.Class3@16293aa2]" name="Smoke2" class="test.Class3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-28T18:02:02 IST" name="Personal Loan" finished-at="2024-05-28T18:02:02 IST" duration-ms="222">
+      <class name="test.Class2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:test.Class2@291ae]" started-at="2024-05-28T18:02:02 IST" name="prerequiste" finished-at="2024-05-28T18:02:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="Demo3()[pri:0, instance:test.Class2@291ae]" started-at="2024-05-28T18:02:02 IST" name="Demo3" finished-at="2024-05-28T18:02:02 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method signature="Smoke1()[pri:0, instance:test.Class2@291ae]" started-at="2024-05-28T18:02:02 IST" name="Smoke1" finished-at="2024-05-28T18:02:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke1 -->
+      </class> <!-- test.Class2 -->
+      <class name="test.Class1">
+        <test-method signature="SecondTest()[pri:0, instance:test.Class1@c33b74f]" started-at="2024-05-28T18:02:02 IST" name="SecondTest" finished-at="2024-05-28T18:02:02 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:test.Class1@c33b74f]" started-at="2024-05-28T18:02:02 IST" name="lastExecution" finished-at="2024-05-28T18:02:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- test.Class1 -->
+      <class name="test.Class5">
+        <test-method signature="WebLoginEducationLOan(java.lang.String)[pri:0, instance:test.Class5@50eac852]" started-at="2024-05-28T18:02:02 IST" name="WebLoginEducationLOan" finished-at="2024-05-28T18:02:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginEducationLOan -->
+      </class> <!-- test.Class5 -->
+      <class name="test.Class4">
+        <test-method signature="APILoginbHomeLoan()[pri:0, instance:test.Class4@61df66b6]" started-at="2024-05-28T18:02:02 IST" name="APILoginbHomeLoan" finished-at="2024-05-28T18:02:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginbHomeLoan -->
+        <test-method signature="MobileLoginbHomeLoan()[pri:0, instance:test.Class4@61df66b6]" started-at="2024-05-28T18:02:02 IST" name="MobileLoginbHomeLoan" finished-at="2024-05-28T18:02:02 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginbHomeLoan -->
+        <test-method signature="Smoke3()[pri:0, instance:test.Class4@61df66b6]" started-at="2024-05-28T18:02:02 IST" name="Smoke3" finished-at="2024-05-28T18:02:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke3 -->
+        <test-method signature="WebLoginHomeLOan()[pri:0, instance:test.Class4@61df66b6]" started-at="2024-05-28T18:02:02 IST" name="WebLoginHomeLOan" finished-at="2024-05-28T18:02:02 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLOan -->
+      </class> <!-- test.Class4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2024-05-28T18:02:02 IST" name="Car Loan" finished-at="2024-05-28T18:02:02 IST" duration-ms="195">
+      <class name="test.Class3">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeSuite" finished-at="2024-05-28T18:02:02 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeClass" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="RestAPILoginbCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="RestAPILoginbCarLoan" data-provider="getData" finished-at="2024-05-28T18:02:02 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPILoginbCarLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="RestAPILoginbCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="RestAPILoginbCarLoan" data-provider="getData" finished-at="2024-05-28T18:02:02 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPILoginbCarLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="RestAPILoginbCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="RestAPILoginbCarLoan" data-provider="getData" finished-at="2024-05-28T18:02:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPILoginbCarLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="WebLoginCarLOan()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="WebLoginCarLOan" finished-at="2024-05-28T18:02:02 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLOan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Smoke2()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="Smoke2" finished-at="2024-05-28T18:02:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smoke2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="BeforeMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="APILoginbCarLoan()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="APILoginbCarLoan" finished-at="2024-05-28T18:02:02 IST" depends-on-methods="test.Class3.RestAPILoginbCarLoan, test.Class3.WebLoginCarLOan" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginbCarLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterMethod" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:test.Class3@16293aa2]" started-at="2024-05-28T18:02:02 IST" name="AfterClass" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- test.Class3 -->
+      <class name="test.Class1">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:test.Class1@c33b74f]" started-at="2024-05-28T18:02:02 IST" name="AfterSuite" finished-at="2024-05-28T18:02:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- test.Class1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
